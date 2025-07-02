@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #497637;;
+    color: #fff;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    background: #497637;
+    color: #fff;
+    justify-content: center;
+}
+.navbar a {
+    color: #fff;
+    font-weight: bold;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.producto {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    flex: 20px;
+    box-sizing: border-box;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.section {
+    padding: 20px;
+    background-color: white;
+    margin: 20px 0;
+}
+
+.section img {
+    max-width: 100%;
+    height: auto;
+}
+.section h2, section p {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #497637;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: black;
+}
+.precio {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.atc-btn {
+    text-decoration: none;
+    background: #497637;
+    border: 1px solid #497637;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    margin: 0 10px 0 0;
+    font-size: 1.4rem;
+    box-sizing: border-box;
+    height: 4rem;
+    vertical-align: middle;
+    background-image: none;
+    line-height: 2.2rem;
+    padding: 7px 15px;
+    font-size: 1.8rem;
+    border-radius: 20px;
+    width: 14rem;
+    font-size: 14px;
+    box-shadow: none;
+}
+
+footer {
+    background-color: #497637;;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
